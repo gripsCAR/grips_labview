@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="11008008">
+	<Property Name="varPersistentID:{0CE6DA4B-ED52-4C26-A5EC-88E416E1DD0F}" Type="Ref">/RT PXI Target/Share Variables.lvlib/left_sim_angles</Property>
+	<Property Name="varPersistentID:{E2731B1A-8B82-4CD4-AFDF-CD9EC967B904}" Type="Ref">/RT PXI Target/Share Variables.lvlib/stop</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -80,9 +82,15 @@
 			<Item Name="Task Definition.ctl" Type="VI" URL="../../Controls/Task Definition.ctl"/>
 			<Item Name="Task Types.ctl" Type="VI" URL="../../Controls/Task Types.ctl"/>
 		</Item>
+		<Item Name="labview_msgs" Type="Folder">
+			<Item Name="sensor_msgs" Type="Folder">
+				<Item Name="JointState.ctl" Type="VI" URL="../../labview_msgs/sensor_msgs/JointState.ctl"/>
+			</Item>
+		</Item>
 		<Item Name="Bimanual Target.vi" Type="VI" URL="../Bimanual Target.vi"/>
 		<Item Name="GripsMaster.lvclass" Type="LVClass" URL="../../Classes/GripsMaster/GripsMaster.lvclass"/>
 		<Item Name="PXI.lvclass" Type="LVClass" URL="../../Classes/PXI/PXI.lvclass"/>
+		<Item Name="Share Variables.lvlib" Type="Library" URL="../../Common/Share Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -305,7 +313,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="daqmx.rc" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2011/resource/objmgr/daqmx.rc"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
