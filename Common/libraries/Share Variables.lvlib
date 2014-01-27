@@ -20,6 +20,42 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"%!A!A!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="master_angles" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">14</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:ArrayLength" Type="Str">7</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"%!A!A!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="slave_angles" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">14</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:ArrayLength" Type="Str">6</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:DatapointsInWaveform" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"%!A!A!!!!#!!V!#A!(4H6N:8*J9Q!=1%!!!@````]!!!^"=H*B?3"P:C"%&lt;X6C&lt;'5!!1!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="stop" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
