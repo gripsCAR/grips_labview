@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GXML_Root name="GripsSlave">
+   <kinematic_parameters mems="3">
+      <k dim="[6,3]" type="SGL">
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+      </k>
+      <p dim="[6,3]" type="SGL">
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>0.354360</item>
+         <item>0.000000</item>
+         <item>-0.009820</item>
+         <item>0.876030</item>
+         <item>0.000000</item>
+         <item>0.251270</item>
+         <item>0.883530</item>
+         <item>0.000000</item>
+         <item>0.384490</item>
+         <item>0.883530</item>
+         <item>-0.000787</item>
+         <item>0.575382</item>
+         <item>0.934861</item>
+      </p>
+      <T0 dim="[4,4]" type="SGL">
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>-0.000787</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>0.575382</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.934861</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+      </T0>
+      <types dim="[6]" type="Enum U16">
+         <joint_type sel="Revolute">0</joint_type>
+         <joint_type sel="Revolute">0</joint_type>
+         <joint_type sel="Revolute">0</joint_type>
+         <joint_type sel="Revolute">0</joint_type>
+         <joint_type sel="Revolute">0</joint_type>
+         <joint_type sel="Revolute">0</joint_type>
+      </types>
+      <joint_limits mems="3">
+         <has_limits dim="[6]" type="Bool">
+            <item>TRUE</item>
+            <item>TRUE</item>
+            <item>TRUE</item>
+            <item>TRUE</item>
+            <item>TRUE</item>
+            <item>FALSE</item>
+         </has_limits>
+         <min_position dim="[6]" type="SGL">
+            <item>-1.570796</item>
+            <item>-1.570796</item>
+            <item>2.617994</item>
+            <item>-1.100000</item>
+            <item>-1.010000</item>
+            <item>-6.283185</item>
+         </min_position>
+         <max_position dim="[6]" type="SGL">
+            <item>1.570796</item>
+            <item>0.523599</item>
+            <item>5.672320</item>
+            <item>0.581000</item>
+            <item>0.675000</item>
+            <item>6.283185</item>
+         </max_position>
+      </joint_limits>
+   </kinematic_parameters>
+   <hw_interface mems="3">
+      <names mems="4">
+         <AI dim="[12]" type="String">
+            <item>SA_POS</item>
+            <item>SE_POS</item>
+            <item>EL_POS</item>
+            <item>WP_POS</item>
+            <item>WY_POS</item>
+            <item>WR_POS</item>
+            <item>SA_FORCE</item>
+            <item>SE_FORCE</item>
+            <item>EL_FORCE</item>
+            <item>WP_FORCE</item>
+            <item>WY_FORCE</item>
+            <item>GRIP_FORCE</item>
+         </AI>
+         <AO dim="[7]" type="String">
+            <item>SA</item>
+            <item>SE</item>
+            <item>EL</item>
+            <item>WP</item>
+            <item>WY</item>
+            <item>WR</item>
+            <item>GRIP</item>
+         </AO>
+         <DI dim="[0]" type="String">
+            <item></item>
+         </DI>
+         <DO dim="[1]" type="String">
+            <item>HYD</item>
+         </DO>
+      </names>
+      <interpolation_coeff dim="[12,2]" type="SGL">
+         <item>-0.014819</item>
+         <item>0.296377</item>
+         <item>-0.443728</item>
+         <item>0.295819</item>
+         <item>4.187079</item>
+         <item>0.299444</item>
+         <item>-0.212580</item>
+         <item>-0.271764</item>
+         <item>-0.148106</item>
+         <item>-0.348485</item>
+         <item>-1.136501</item>
+         <item>-0.282010</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+         <item>0.000000</item>
+         <item>1.000000</item>
+      </interpolation_coeff>
+   </hw_interface>
+   <joint_mapping mems="4">
+      <name dim="[7]" type="String">
+         <item>SA</item>
+         <item>SE</item>
+         <item>EL</item>
+         <item>WP</item>
+         <item>WY</item>
+         <item>WR</item>
+         <item>GRIP</item>
+      </name>
+      <position dim="[6]" type="String">
+         <item>SA_POS</item>
+         <item>SE_POS</item>
+         <item>EL_POS</item>
+         <item>WP_POS</item>
+         <item>WY_POS</item>
+         <item>WR_POS</item>
+      </position>
+      <velocity dim="[0]" type="String">
+         <item></item>
+      </velocity>
+      <effort dim="[6]" type="String">
+         <item>SA_FORCE</item>
+         <item>SE_FORCE</item>
+         <item>EL_FORCE</item>
+         <item>WP_FORCE</item>
+         <item>WY_FORCE</item>
+         <item>GRIP_FORCE</item>
+      </effort>
+   </joint_mapping>
+</GXML_Root>
