@@ -111,13 +111,13 @@
             <item>GRIP_FORCE</item>
          </AI>
          <AO dim="[7]" type="String">
-            <item>SA</item>
-            <item>SE</item>
-            <item>EL</item>
-            <item>WP</item>
-            <item>WY</item>
-            <item>WR</item>
-            <item>GRIP</item>
+            <item>SA_CMD</item>
+            <item>SE_CMD</item>
+            <item>EL_CMD</item>
+            <item>WP_CMD</item>
+            <item>WY_CMD</item>
+            <item>WR_CMD</item>
+            <item>GRIP_CMD</item>
          </AO>
          <DI dim="[0]" type="String">
             <item></item>
@@ -163,24 +163,35 @@
          <item>WR</item>
          <item>GRIP</item>
       </name>
-      <position dim="[6]" type="String">
+      <position dim="[7]" type="String">
          <item>SA_POS</item>
          <item>SE_POS</item>
          <item>EL_POS</item>
          <item>WP_POS</item>
          <item>WY_POS</item>
          <item>WR_POS</item>
+         <item>NONE</item>
       </position>
       <velocity dim="[0]" type="String">
          <item></item>
       </velocity>
-      <effort dim="[6]" type="String">
+      <effort dim="[7]" type="String">
          <item>SA_FORCE</item>
          <item>SE_FORCE</item>
          <item>EL_FORCE</item>
          <item>WP_FORCE</item>
          <item>WY_FORCE</item>
+         <item>NONE</item>
          <item>GRIP_FORCE</item>
       </effort>
+      <command dim="[7]" type="String">
+         <item>SA_CMD</item>
+         <item>SE_CMD</item>
+         <item>EL_CMD</item>
+         <item>WP_CMD</item>
+         <item>WY_CMD</item>
+         <item>WR_CMD</item>
+         <item>GRIP_CMD</item>
+      </command>
    </joint_mapping>
 </GXML_Root>
