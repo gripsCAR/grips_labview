@@ -318,6 +318,7 @@ AddOutputFilter chunkFilter
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Error to Warning.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error to Warning.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="GXML.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/GXML/GXML.lvlib"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
@@ -330,19 +331,18 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_Robotics Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Utilities/NI_Robotics Utilities.lvlib"/>
 				<Item Name="NI_Robotics_Link.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/robotics/Kinematics/Link/NI_Robotics_Link.lvclass"/>
+				<Item Name="No Time Out Error.vi" Type="VI" URL="/&lt;vilib&gt;/real-time/_support/legacy/No Time Out Error.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
-			<Item Name="Get Bool By Name.vi" Type="VI" URL="../../../Telemanipulation/Helpers/Get Bool By Name.vi"/>
-			<Item Name="Get Double By Name.vi" Type="VI" URL="../../../Telemanipulation/Helpers/Get Double By Name.vi"/>
 			<Item Name="Grips Robot.lvclass" Type="LVClass" URL="../../../Telemanipulation/Grips Robot/Grips Robot.lvclass"/>
 			<Item Name="Hardware Interface.lvclass" Type="LVClass" URL="../../../Telemanipulation/Hardware Interface/Hardware Interface.lvclass"/>
+			<Item Name="Helpers.lvlib" Type="Library" URL="../../../Telemanipulation/Helpers/Helpers.lvlib"/>
 			<Item Name="Link.lvclass" Type="LVClass" URL="../../../../robotic_arm_labview/Kinematics/Link/Link.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Order JointCommands By Name.vi" Type="VI" URL="../../../Telemanipulation/Helpers/Order JointCommands By Name.vi"/>
 			<Item Name="PXI.lvclass" Type="LVClass" URL="../../../Telemanipulation/PXI/PXI.lvclass"/>
 			<Item Name="Robot Arm.lvclass" Type="LVClass" URL="../../../../robotic_arm_labview/Kinematics/Robot/Robot Arm.lvclass"/>
 		</Item>
