@@ -127,16 +127,16 @@
          </DO>
       </names>
       <interpolation_coeff dim="[12,2]" type="SGL">
-         <item>-0.014819</item>
-         <item>0.296377</item>
-         <item>-0.443728</item>
-         <item>0.295819</item>
-         <item>4.187079</item>
-         <item>0.299444</item>
-         <item>-0.212580</item>
-         <item>-0.271764</item>
-         <item>-0.148106</item>
-         <item>-0.348485</item>
+         <item>0.000000</item>
+         <item>-0.296377</item>
+         <item>-0.533996</item>
+         <item>0.297077</item>
+         <item>2.405593</item>
+         <item>-0.343636</item>
+         <item>-0.203260</item>
+         <item>-0.284160</item>
+         <item>0.232766</item>
+         <item>0.283543</item>
          <item>-1.136501</item>
          <item>-0.282010</item>
          <item>0.000000</item>

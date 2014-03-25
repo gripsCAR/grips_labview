@@ -1,5 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
+	<Property Name="varPersistentID:{4BB44EDA-9EA6-4E0B-940F-94090410A10C}" Type="Ref">/RT PXI Target/Variables.lvlib/stop</Property>
+	<Property Name="varPersistentID:{66A1E11B-0FC4-4975-95CA-8450ADBEE1AC}" Type="Ref">/RT PXI Target/Variables.lvlib/slave_velocity</Property>
+	<Property Name="varPersistentID:{746B0278-57B8-4ED8-938F-5B0141994664}" Type="Ref">/RT PXI Target/Variables.lvlib/position_command</Property>
+	<Property Name="varPersistentID:{DC0BBB64-AB8A-46DA-91CE-99BEC0EF3494}" Type="Ref">/RT PXI Target/Variables.lvlib/slave_position</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -122,6 +126,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PXI Configuration.vi" Type="VI" URL="../PXI Configuration.vi"/>
 		</Item>
 		<Item Name="Grips Slave UDP (PXI).vi" Type="VI" URL="../Grips Slave UDP (PXI).vi"/>
+		<Item Name="Variables.lvlib" Type="Library" URL="../Variables.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
