@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Get Bool By Name.vi" Type="VI" URL="../Get Bool By Name.vi"/>
 	<Item Name="Get Double By Name.vi" Type="VI" URL="../Get Double By Name.vi"/>
+	<Item Name="Increment File Name.vi" Type="VI" URL="../Increment File Name.vi"/>
 	<Item Name="Order JointCommands By Name.vi" Type="VI" URL="../Order JointCommands By Name.vi"/>
 	<Item Name="Order JointState By Name.vi" Type="VI" URL="../Order JointState By Name.vi"/>
 	<Item Name="Stamp From Iteration.vi" Type="VI" URL="../Stamp From Iteration.vi"/>
