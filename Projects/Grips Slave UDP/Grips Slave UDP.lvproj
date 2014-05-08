@@ -401,6 +401,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="PXI.lvclass" Type="LVClass" URL="../../../Telemanipulation/PXI/PXI.lvclass"/>
 			<Item Name="Robot Arm.lvclass" Type="LVClass" URL="../../../../robotic_arm_labview/Kinematics/Robot/Robot Arm.lvclass"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
