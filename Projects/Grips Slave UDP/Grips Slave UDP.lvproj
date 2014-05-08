@@ -130,6 +130,9 @@ AddOutputFilter chunkFilter
 			<Item Name="Load Slave Configuration.vi" Type="VI" URL="../Load Slave Configuration.vi"/>
 			<Item Name="PXI Configuration.vi" Type="VI" URL="../PXI Configuration.vi"/>
 		</Item>
+		<Item Name="labview_ros" Type="Folder" URL="../../../../labview_ros">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Tools" Type="Folder">
 			<Item Name="Grips Slave Bandwidth.vi" Type="VI" URL="../Grips Slave Bandwidth.vi"/>
 		</Item>
