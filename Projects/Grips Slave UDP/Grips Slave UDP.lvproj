@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="13008000">
 	<Property Name="varPersistentID:{41C6D9F3-69C9-4AE4-B73A-AB89B41C0DD5}" Type="Ref">/RT PXI Target/Variables.lvlib/sine_freq</Property>
 	<Property Name="varPersistentID:{4BB44EDA-9EA6-4E0B-940F-94090410A10C}" Type="Ref">/RT PXI Target/Variables.lvlib/stop</Property>
+	<Property Name="varPersistentID:{60AFFA51-CCB6-428E-9288-8BB7141E5F71}" Type="Ref">/RT PXI Target/Variables.lvlib/close_gripper</Property>
 	<Property Name="varPersistentID:{66A1E11B-0FC4-4975-95CA-8450ADBEE1AC}" Type="Ref">/RT PXI Target/Variables.lvlib/slave_vel</Property>
 	<Property Name="varPersistentID:{746B0278-57B8-4ED8-938F-5B0141994664}" Type="Ref">/RT PXI Target/Variables.lvlib/slave_pos_cmd</Property>
 	<Property Name="varPersistentID:{8C27FE0B-C2E7-4901-938C-4D76082C2FA0}" Type="Ref">/RT PXI Target/Variables.lvlib/valid_pos_cmd</Property>
@@ -394,6 +395,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Grips Robot.lvclass" Type="LVClass" URL="../../../Telemanipulation/Grips Robot/Grips Robot.lvclass"/>
 			<Item Name="Hardware Interface.lvclass" Type="LVClass" URL="../../../Telemanipulation/Hardware Interface/Hardware Interface.lvclass"/>
 			<Item Name="Helpers.lvlib" Type="Library" URL="../../../Telemanipulation/Helpers/Helpers.lvlib"/>
+			<Item Name="Kinematics.lvlib" Type="Library" URL="../../../../robotic_arm_labview/Kinematics/Kinematics.lvlib"/>
 			<Item Name="Link.lvclass" Type="LVClass" URL="../../../../robotic_arm_labview/Kinematics/Link/Link.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
