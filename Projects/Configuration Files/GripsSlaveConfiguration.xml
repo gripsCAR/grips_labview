@@ -92,6 +92,14 @@
             <item>0.675000</item>
             <item>6.283185</item>
          </max_position>
+         <velocity dim="[6]" type="SGL">
+            <item>1.396263</item>
+            <item>1.134464</item>
+            <item>0.872665</item>
+            <item>1.745329</item>
+            <item>2.007129</item>
+            <item>3.490659</item>
+         </velocity>
       </joint_limits>
    </kinematic_parameters>
    <hw_interface mems="3">
@@ -137,8 +145,8 @@
          <item>-0.284160</item>
          <item>-0.102337</item>
          <item>0.283543</item>
-         <item>-1.136501</item>
-         <item>-0.282010</item>
+         <item>0.000000</item>
+         <item>-0.314159</item>
          <item>0.000000</item>
          <item>1.000000</item>
          <item>0.000000</item>
