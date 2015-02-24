@@ -82,7 +82,7 @@
             <item>-0.959931</item>
             <item>-0.610865</item>
             <item>-0.680678</item>
-            <item>-3.141593</item>
+            <item>-2.836160</item>
          </min_position>
          <max_position dim="[6]" type="SGL">
             <item>1.570796</item>
@@ -90,7 +90,7 @@
             <item>2.094395</item>
             <item>1.134464</item>
             <item>1.151917</item>
-            <item>3.141593</item>
+            <item>2.836160</item>
          </max_position>
          <velocity dim="[6]" type="SGL">
             <item>1.396263</item>
@@ -145,8 +145,8 @@
          <item>-0.291861</item>
          <item>0.096275</item>
          <item>-0.281505</item>
-         <item>0.000000</item>
-         <item>-0.314159</item>
+         <item>-0.149272</item>
+         <item>-0.298543</item>
          <item>0.000000</item>
          <item>1.000000</item>
          <item>0.000000</item>
